@@ -1,0 +1,121 @@
+header{
+    width: 100%;
+    height: 100px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.2px;
+    background:white;
+}
+nav{
+    float:right;
+    padding: 40px;
+}
+a,a:hover,h1,h2,h3,p{
+    font-family: sans-serif;
+}
+a{
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(5, 143, 124);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.logo{
+    width: 130px;
+    height: 100px;
+    border-right: 1px solid grey;
+    padding: 0px;
+}
+.First{
+    padding: 0;
+    background: #f5f6f7;
+    width: 100%;
+    height: 150px;
+    text-align: left;
+}
+.Second{
+        padding: 0;
+        background: #f5f6f7;
+        margin: auto;
+        width: 60%;
+        height: 750px;
+}
+.floatrt{
+    float: right;
+}
+.flex-container{
+    background: #f5f6f7;
+}
+.flex-container2{
+    background: white;
+}
+.flex-container,.flex-container2 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+    padding: 15px;
+    width: 30%;
+    height: 400px;
+}
+.flex-item2 {
+    padding: 15px;
+    width: 30%;
+    height: 300px;
+}
+.flex-item3 {
+    padding: 15px;
+    width: 50%;
+    height: 600px;
+    background:white;
+}
+.number{
+    background:  #f5f6f7;
+  padding: 5px;
+  width: 50px;
+  height: 280px;
+  margin-top: 10px;
+  
+  line-height: 20px;
+  color:rgb(5, 143, 124);
+  font-size: 3em;
+  text-align: center;
+  font-family: sans-serif;
+  float: left;
+}
+hr {
+    height: 5px black;
+    width: 40px;
+  }
+  .hr2 {
+    height:1px lightgrey;
+    width: 100%;
+    opacity: 0.2;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    background:rgb(0, 128, 90);
+  }
+  footer:hover{
+    width: 100%;
+    height: 100px;
+    background:rgb(33, 34, 34);
+  }

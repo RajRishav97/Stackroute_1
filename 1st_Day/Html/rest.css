@@ -1,0 +1,73 @@
+body{
+    font-family: sans-serif;
+    background-image: url("Rest.jpg");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+
+  }
+
+  li{
+    display: inline;
+    font-size: 30px;
+    color: black;
+}
+li a{
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: wheat;
+  }
+  .bar{
+      float: right;
+  }
+  .logo{
+      width: 150px;
+      height: 100px;
+      float: left;
+      opacity: 0.5;
+  }
+  h1{
+      font-size: 60px;
+  }
+  h1,h2,h3,h4,li a{
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 2px 2px 8px #FF0000;
+    color: blanchedalmond;
+    text-align: center;
+  }
+  .flex-container {
+      padding: 0;
+      margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+      padding: 20px;
+  }
+  .flex-item:hover {
+    opacity: 0.7;
+    width: 400px;
+    height: 280px;
+}
+.parallax { 
+  background-image: url("Rest.jpg"); 
+  min-height: 500px;  
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+} 
+  

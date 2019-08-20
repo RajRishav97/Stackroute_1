@@ -1,0 +1,27 @@
+body{
+  align-self: auto;
+  background:#deeaee;
+}
+#cblock{display: block;
+  border: 2px solid black;   
+  margin:auto;
+  width:500px;
+  align-self: center;
+  }
+a{
+  color:black;
+  text-decoration:underline;
+  text-align: center;
+  }
+div{
+    width: 600px;
+    margin:auto;
+  }
+h1,h2,p,ul
+{
+ font-family:sans-serif;
+ color:black;
+ text-align: center;
+}
+
+
